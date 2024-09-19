@@ -1,0 +1,30 @@
+title: QiGe's Blog
+description: "QiGe's Blog"
+keywords: [Blog, Portfolio, qige.eth, defi]
+author: qige.eth
+# author: ["Me", "You"] # multiple authors
+images: ["<link or path of image for opengraph, twitter-cards>"]
+DateFormat: "January 2, 2006"
+
+label:
+  text: "Home"
+
+# profile-mode
+profileMode:
+  enabled: true # needs to be explicitly set
+  title: Qige's IT Blog
+  subtitle: "离相寂灭，即是如来"
+  imageUrl: "https://img.learnblockchain.cn/7g/202409190046635.jpg"
+  imageWidth: 120
+  imageHeight: 120
+  imageTitle: "my face"
+  buttons:
+    - name: Posts
+      url: posts
+    - name: Fllow
+      url: https://x.com/0xqige
+
+editPost:
+  URL: "https://github.com/0xqige/0xqige/content"
+  Text: "Suggest Changes" # edit text
+  appendFilePath: true # to append file path to Edit link
