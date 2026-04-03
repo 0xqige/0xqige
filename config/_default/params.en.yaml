@@ -14,7 +14,7 @@ profileMode:
   enabled: true # needs to be explicitly set
   title: Qige's IT Blog
   subtitle: "离相寂灭，即是如来"
-  imageUrl: "https://img.learnblockchain.cn/7g/202409190046635.jpg"
+  imageUrl: "/logo.svg"
   imageWidth: 120
   imageHeight: 120
   imageTitle: "my face"
