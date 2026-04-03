@@ -76,17 +76,17 @@ params:
   showtoc: false
   tocopen: false
   label:
-    icon: https://img.learnblockchain.cn/7g/202409191616277.png
+    icon: /logo.svg
     iconHeight: 35
 
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://img.learnblockchain.cn/7g/202409191616937.png"
-    favicon16x16: "https://img.learnblockchain.cn/7g/202409191616937.png"
-    favicon32x32: "https://img.learnblockchain.cn/7g/202409191616892.png"
-    apple_touch_icon: "https://img.learnblockchain.cn/7g/202409191616277.png"
-    safari_pinned_tab: "https://img.learnblockchain.cn/7g/202409191616277.png"
+    favicon: "/logo.svg"
+    favicon16x16: "/logo.svg"
+    favicon32x32: "/logo.svg"
+    apple_touch_icon: "/logo.svg"
+    safari_pinned_tab: "/logo.svg"
 
   socialIcons:
     - name: x
