@@ -5,9 +5,9 @@ searchHidden: false
 # uglyURLs: true
 defaultContentLanguage: en
 languages:
-  cn:
+  zh:
     disabled: false
-    languageCode: cn-ZH
+    languageCode: zh-CN
     languageDirection: ltr
     languageName: Chinese
     params:
