@@ -31,6 +31,6 @@ profileMode:
 #   Content: 欢迎来到我的博客
 
 editPost:
-  URL: "https://github.com/0xqige/0xqige/content"
+  URL: "https://github.com/0xqige/0xqige/edit/main/content/"
   Text: "编辑" # edit text
   appendFilePath: true # to append file path to Edit link

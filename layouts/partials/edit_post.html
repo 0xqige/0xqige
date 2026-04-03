@@ -1,0 +1,15 @@
+{{- if and (or .Params.editPost.URL site.Params.editPost.URL) (not (.Param "editPost.disabled")) -}}
+{{- $fileUrlPath := path.Join .File.Path }}
+{{- $appendFile := .Params.editPost.appendFilePath | default ( site.Params.editPost.appendFilePath | default false ) }}
+{{- $editURL := .Params.editPost.URL | default site.Params.editPost.URL }}
+
+{{- if or .Params.author site.Params.author (.Param "ShowReadingTime") (not .Date.IsZero) .IsTranslated }}&nbsp;·&nbsp;{{- end -}}
+<a href="{{ $editURL }}{{ if $appendFile }}/{{ $fileUrlPath }}{{ end }}" rel="noopener noreferrer" target="_blank" title="{{ .Params.editPost.Text | default (site.Params.editPost.Text | default (i18n "edit_post" | default "Edit")) }}">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:-0.15em"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+</a>
+{{- $rawURL := $editURL | replaceRE "/edit/main/" "/raw/refs/heads/main/" -}}
+&nbsp;·&nbsp;
+<a href="{{ $rawURL }}{{ if $appendFile }}/{{ $fileUrlPath }}{{ end }}" rel="noopener noreferrer" target="_blank" title="Markdown">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;vertical-align:-0.15em"><path d="M14.85 3c.63 0 1.15.52 1.14 1.15v7.7c0 .63-.51 1.15-1.15 1.15H1.15C.52 13 0 12.48 0 11.84V4.15C0 3.52.52 3 1.15 3ZM9 11V5H7L5.5 7 4 5H2v6h2V8l1.5 2L7 8v3Zm2.99.5L14.5 8H13V5h-2v3H9.5Z"/></svg>
+</a>
+{{- end }}

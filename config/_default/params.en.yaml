@@ -25,6 +25,6 @@ profileMode:
       url: https://x.com/0xqige
 
 editPost:
-  URL: "https://github.com/0xqige/0xqige/content"
-  Text: "Suggest Changes" # edit text
+  URL: "https://github.com/0xqige/0xqige/edit/main/content/"
+  Text: "Edit" # edit text
   appendFilePath: true # to append file path to Edit link
