@@ -8,7 +8,7 @@ images: ["twitter:image"]
 DateFormat: "2006 年 1 月 2 日"
 
 label:
-  text: "首页"
+  text: "  "
 
 # profile-mode
 profileMode:
