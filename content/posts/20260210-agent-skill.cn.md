@@ -3,7 +3,7 @@ title: "研发团队中 Agent Skill 能做什么，不能做什么"
 summary: Agent Skill的目标不是减少沟通，而是把沟通结果编码成可校验的工件；不是消灭联调，而是让联调更早、更自动、更可回归。
 date: 2026-02-10
 tags: ["AI"]
-author: ["qige"]
+author: ["七哥"]
 ---
 
 
