@@ -1,0 +1,8 @@
+{{- /* 为文章页添加 Markdown 源文件的 alternate link */ -}}
+{{- if and .IsPage .File }}
+{{- with site.Params.editPost.URL }}
+{{- $rawURL := . | replaceRE "/edit/main/" "/raw/refs/heads/main/" | strings.TrimRight "/" }}
+{{- $filePath := path.Join $.File.Path }}
+<link rel="alternate" type="text/markdown" href="{{ $rawURL }}/{{ $filePath }}" />
+{{- end }}
+{{- end }}

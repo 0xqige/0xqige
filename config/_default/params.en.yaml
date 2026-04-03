@@ -3,7 +3,7 @@ description: "QiGe's Blog"
 keywords: [Blog, Portfolio, qige.eth, defi]
 author: qige.eth
 # author: ["Me", "You"] # multiple authors
-images: ["<link or path of image for opengraph, twitter-cards>"]
+images: ["/logo.svg"]
 DateFormat: "January 2, 2006"
 
 label:

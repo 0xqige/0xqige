@@ -4,7 +4,7 @@ description: "七哥的博客"
 keywords: [Blog, Portfolio, qige.eth, defi]
 author: 七哥
 # author: ["Me", "You"] # multiple authors
-images: ["twitter:image"]
+images: ["/logo.svg"]
 DateFormat: "2006 年 1 月 2 日"
 
 label:
